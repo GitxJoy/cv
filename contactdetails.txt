@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Contact Aritra</title>
+    </head>
+
+    <body>
+        <h1>MY CONTACT DETAILS</h1>
+        <p>Name : Aritra</p>
+        <p>Mobile : 8001351530</p>
+        <p>Email : sarkararitra07@gmail.com</p>
+        <form action="mailto:sarkararitra07@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text"name="Your Name"value=""><br>
+            <label>Your Color:</label>
+            <input type="color"name="Your Color"value=""><br>
+            <label>Your Email:</label>
+            <input type="email"name="Your Email"value=""><br>
+            <label>Your checkbox:</label>
+            <input type="checkbox"name="Your value"value=""><br>
+            <label>Your Message:</label>
+            <textarea name ="YourMessage" rows="10" columns="30"></textarea><br>
+            <input type="submit"name="">
+        </form>
+    </body>
+</html>
